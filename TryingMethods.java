@@ -2,29 +2,60 @@ public class TryingMethods {
     public static void main(String[] args){
         myFirststaticMethod();
          mySecondStaticMethod();
+
+// One of the dynamic methods .
+
+
+            int dayOfTheWeek = 6;
+            switch(dayOfTheWeek){
+                case 1:
+            System.out.println("Monday") ;
+               break;
+                case 2:
+                System.out.println("Tuesday") ;
+                break;
+                case 3:
+                System.out.println("Wednsday") ;
+                break;
+                case 5:
+                System.out.println("Thursday") ;
+                break;
+                default:
+                System.out.println("It's Weekend") ;
+            
+                break;
+            
+            }
+// The second dynamic method .
+
+            int t = 1;
+           
+            if(t == 5 ){
+                Console.log("t == 5");
+            }
+            else if(t == 4 ){
+                Console.log("t == 4");
+              
+            }else {
+                Console.log("Bingo");
+            
+            }
+           
+        
+
+       
+   
+            
     }
 
 
-    public void dayOfTheWeek(){
-        int dayOfTheWeek = 6;
-        switch(dayOfTheWeek){
-            case 1:
-        System.out.println("Monday") ;
-           break;
-            case 2:
-            System.out.println("Tuesday") ;
-            break;
-            case 3:
-            System.out.println("Wednsday") ;
-            break;
-            default:
-            System.out.println("All go chop breakfast") ;
-        
-            break;
-        
+  
+
+    class Console{
+        public static void log(Object obj) {
+            System.out.println(obj);
         }
     }
-
 
 
    public static void myFirststaticMethod(){
