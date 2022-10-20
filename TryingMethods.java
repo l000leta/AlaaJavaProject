@@ -1,8 +1,31 @@
 public class TryingMethods {
     public static void main(String[] args){
         myFirststaticMethod();
-         mySecondMethod();
+         mySecondStaticMethod();
     }
+
+
+    public void dayOfTheWeek(){
+        int dayOfTheWeek = 6;
+        switch(dayOfTheWeek){
+            case 1:
+        System.out.println("Monday") ;
+           break;
+            case 2:
+            System.out.println("Tuesday") ;
+            break;
+            case 3:
+            System.out.println("Wednsday") ;
+            break;
+            default:
+            System.out.println("All go chop breakfast") ;
+        
+            break;
+        
+        }
+    }
+
+
 
    public static void myFirststaticMethod(){
         {
@@ -17,7 +40,7 @@ public class TryingMethods {
             System.out.println("Sum of "+x+" numbers is :"+sum);
         }
     }
-    static int mySecondMethod(){
+    static int mySecondStaticMethod(){
 
         int sum = 0;
           
