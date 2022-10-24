@@ -3,6 +3,9 @@ public class TryingMethods {
         myFirststaticMethod();
          mySecondStaticMethod();
 
+         //how to access dynamic methods
+         new TryingMethods().returnDayOfWeek(5);
+         new TryingMethods().secondDynamicMethod(5);
 
 
            
