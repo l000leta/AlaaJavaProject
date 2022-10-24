@@ -15,7 +15,7 @@ public class TryingMethods {
                 System.out.println("Tuesday") ;
                 break;
                 case 3:
-                System.out.println("Wednsday") ;
+                System.out.println("Wednesday") ;
                 break;
                 case 5:
                 System.out.println("Thursday") ;
