@@ -54,11 +54,7 @@ public class TryingMethods {
 
   
 
-    class Console{
-        public static void log(Object obj) {
-            System.out.println(obj);
-        }
-    }
+    
 
 
    public static void myFirststaticMethod(){
@@ -92,4 +88,10 @@ public class TryingMethods {
       
     }
     
+}
+
+class Console{
+    public static void log(Object obj) {
+        System.out.println(obj);
+    }
 }
