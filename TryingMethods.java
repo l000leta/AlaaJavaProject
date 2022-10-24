@@ -29,20 +29,7 @@ public class TryingMethods {
                 break;
             
             }
-// The second dynamic method .
 
-            int t = 1;
-           
-            if(t == 5 ){
-                Console.log("t == 5");
-            }
-            else if(t == 4 ){
-                Console.log("t == 4");
-              
-            }else {
-                Console.log("Bingo");
-            
-            }
            
         
 
@@ -54,10 +41,25 @@ public class TryingMethods {
 
   
 
-    
+    // The second dynamic method .
+
+        public int secondDynamicMethod(int t){
+            
+        if(t == 5 ){
+            Console.log("t == 5");
+            return (t);
+        }
+        else if(t == 4 ){
+            Console.log("t == 4");
+            return (t);
+        }else {
+            Console.log("Bingo");
+            return (t);
+        }
+    }
 
 
-   public static void myFirststaticMethod(){
+    public static void myFirststaticMethod(){
         {
             int x=1000, i = 1 ;
             int sum = 0;
