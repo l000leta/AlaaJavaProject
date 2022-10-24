@@ -3,32 +3,7 @@ public class TryingMethods {
         myFirststaticMethod();
          mySecondStaticMethod();
 
-// One of the dynamic methods .
 
-
-            int dayOfTheWeek = 6;
-            switch(dayOfTheWeek){
-                case 1:
-            System.out.println("Monday") ;
-               break;
-                case 2:
-                System.out.println("Tuesday") ;
-                break;
-                case 3:
-                System.out.println("Wednesday") ;
-                break;
-                case 4:
-                System.out.println("Thursday") ;
-                break;
-                case 5:
-                System.out.println("Friday") ;
-                break;
-                default:
-                System.out.println("It's Weekend") ;
-            
-                break;
-            
-            }
 
            
         
@@ -38,6 +13,39 @@ public class TryingMethods {
             
     }
 
+
+    // One of the dynamic methods .
+        public String returnDayOfWeek(int dayOfTheWeek){
+        String tmpString="";
+        switch(dayOfTheWeek){
+            case 1:
+            System.out.println("Monday") ;
+            tmpString="Monday";
+            break;
+            case 2:
+            System.out.println("Tuesday") ;
+            tmpString="Tuesday";
+            break;
+            case 3:
+            System.out.println("Wednesday") ;
+            tmpString="Wednesday";
+            break;
+            case 4:
+            System.out.println("Thursday") ;
+            tmpString="Thursday";
+            break;
+            case 5:
+            System.out.println("Friday") ;
+            tmpString="Friday";
+            break;
+            default:
+            System.out.println("It's Weekend") ;
+            tmpString="It's Weekend";
+            break;
+        
+        }
+        return tmpString;
+    }
 
   
 
