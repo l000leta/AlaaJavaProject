@@ -1,19 +1,40 @@
 public class TryConst {
      private String username ;
     int age ;
+    private String password ;
+    private double amountRaised;
 
 public TryConst(){}
 
-public String getUsername(){
-    return username;
+
+    public double getAmountRaised(){
+        if(amountRaised > 100){}
+        else{}
+        return amountRaised;
+    }
+
+
+
+public void setpassword(String password){  
+this.password = password;
+    
+}
+
+
+public String getpassword(){
+    return "*****";
 }
     
 
 
 public void setUsername(String username){
-    if(!username.isEmpty()){
+    if(username.trim().length()>5){
 this.username = username;
     }
+}
+
+public String getUsername(){
+    return username;
 }
    
    public TryConst(String username){
