@@ -1,9 +1,20 @@
 public class TryConst {
-    String username="" ;
+     private String username ;
     int age ;
-    
+
 public TryConst(){}
-  
+
+public String getUsername(){
+    return username;
+}
+    
+
+
+public void setUsername(String username){
+    if(!username.isEmpty()){
+this.username = username;
+    }
+}
    
    public TryConst(String username){
     this.username = username;
@@ -17,8 +28,9 @@ public static void main(String[] args){
     TryConst tryConst = new TryConst();
 
     TryConst tryConst1 = new TryConst("Alaa");
-    TryConst tryConst2 = new TryConst("loli");
+    TryConst tryConst2 = new TryConst("loli",31);
 
 }
+
 
 }
