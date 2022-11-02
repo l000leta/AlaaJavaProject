@@ -1,20 +1,24 @@
 public class TryConst {
+    String username="" ;
+    int age ;
     
-    int x;
-    int y;
+public TryConst(){}
+  
+   
+   public TryConst(String username){
+    this.username = username;
+   }
+   public TryConst(String username,int age){
+    this.username = username;
+    this.age = age;
+   }
 
+public static void main(String[] args){
+    TryConst tryConst = new TryConst();
 
-    public TryConst(int x) {
-    this.x = x;
+    TryConst tryConst1 = new TryConst("Alaa");
+    TryConst tryConst2 = new TryConst("loli");
 
-    }
+}
 
-    /**
-     * @param x
-     * @param y
-     */
-    public TryConst(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
 }
