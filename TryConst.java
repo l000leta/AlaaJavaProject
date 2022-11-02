@@ -51,6 +51,8 @@ public static void main(String[] args){
     TryConst tryConst1 = new TryConst("Alaa");
     TryConst tryConst2 = new TryConst("loli",31);
 
+    tryConst.setUsername("test");
+    System.out.println(tryConst.getUsername());
 }
 
 
